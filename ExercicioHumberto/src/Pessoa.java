@@ -29,4 +29,9 @@ public class Pessoa {
 		this.cpf = cpf;
 	}
 	
+	public String toString() {
+		String aux = "Nome:" + nome+ ",CPF:"+cpf;
+		return aux;
+	}
+	
 }
